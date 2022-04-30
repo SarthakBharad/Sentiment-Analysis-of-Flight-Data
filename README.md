@@ -68,19 +68,19 @@ c) Neutral
 
 Now, we calculated the count of each sentiment using the query in spark as below:
 
-q1=spark.sql('''
-FROM tweet select
-airline_sentiment, count(airline_sentiment)
-GROUP BY airline_sentiment
-''')
-qp1=q1.toPandas()
+- q1=spark.sql('''
+- FROM tweet select
+- airline_sentiment, count(airline_sentiment)
+- GROUP BY airline_sentiment
+- ''')
+- qp1=q1.toPandas()
 
 We then plotted the graph of sentiment vs count of sentiment using the code below in which we used the seaborn library:
 
-f, (ax1) = plt.subplots(1, 1, figsize=(9, 9), sharex=True)
-sns.barplot(x=qp1['airline_sentiment'], y=qp1['count(airline_sentiment)'], palette="rocket_r", ax=ax1)
-ax1.axhline(0, color="k", clip_on=False)
-ax1.set_ylabel("Sequential")
+- f, (ax1) = plt.subplots(1, 1, figsize=(9, 9), sharex=True)
+- sns.barplot(x=qp1['airline_sentiment'], y=qp1['count(airline_sentiment)'], palette="rocket_r", ax=ax1)
+- ax1.axhline(0, color="k", clip_on=False)
+- ax1.set_ylabel("Sequential")
 
 The results we got are sccording to image1
 
@@ -91,21 +91,21 @@ The results we got are sccording to image1
 First, we segregated the confidence of each sentiment that are present in the given data according to the sentiment values the corresponding cell has.
 We performed the above function using the queries below:
 
-q2=spark.sql('''
-FROM tweet select airline_sentiment, airline_sentiment_confidence
-where airline_sentiment='positive'
-''')
-q3=spark.sql('''
-FROM tweet select airline_sentiment, airline_sentiment_confidence
-where airline_sentiment='negative'
-''')
-q4=spark.sql('''
-FROM tweet select airline_sentiment, airline_sentiment_confidence
-where airline_sentiment='neutral'
-''')
-qp=q2.toPandas()
-qn=q3.toPandas()
-qne=q4.toPandas()
+- q2=spark.sql('''
+- FROM tweet select airline_sentiment, airline_sentiment_confidence
+- where airline_sentiment='positive'
+- ''')
+- q3=spark.sql('''
+- FROM tweet select airline_sentiment, airline_sentiment_confidence
+- where airline_sentiment='negative'
+- ''')
+- q4=spark.sql('''
+- FROM tweet select airline_sentiment, airline_sentiment_confidence
+- where airline_sentiment='neutral'
+- ''')
+- qp=q2.toPandas()
+- qn=q3.toPandas()
+- qne=q4.toPandas()
 
 We then plotted the graph of sentiment confidence vs count of sentiment using the code below and got results as per image 2:
 
@@ -128,9 +128,9 @@ We used the below query to obtain the results:
 
 We then plotted the graph of sentiment vs count of sentiment using the code below and got results as per image 3:
 
-f, ax = plt.subplots(figsize=(6, 15))
-sns.set_color_codes("pastel")
-sns.barplot(x=q5p['count(tweet_id)'], y=q5p['airline'], data=q5p, label="Total", color="b")
+- f, ax = plt.subplots(figsize=(6, 15))
+- sns.set_color_codes("pastel")
+- sns.barplot(x=q5p['count(tweet_id)'], y=q5p['airline'], data=q5p, label="Total", color="b")
 
 The results we got are sccording to image3
 
