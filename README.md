@@ -82,6 +82,8 @@ sns.barplot(x=qp1['airline_sentiment'], y=qp1['count(airline_sentiment)'], palet
 ax1.axhline(0, color="k", clip_on=False)
 ax1.set_ylabel("Sequential")
 
+The results we got are sccording to image1
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **The following is the process by which we created the 2nd graph, i.e. Distribution of Sentiment Confidence - Histogram**
@@ -109,6 +111,8 @@ We then plotted the graph of sentiment confidence vs count of sentiment using th
 
 sns.displot(qp['airline_sentiment_confidence'], bins=10,palette="rocket_r")
 
+The results we got are sccording to image2
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The following is the process by which we created the 3rd graph, i.e. Number of Tweets per Airline - Barplot
@@ -127,5 +131,7 @@ We then plotted the graph of sentiment vs count of sentiment using the code belo
 f, ax = plt.subplots(figsize=(6, 15))
 sns.set_color_codes("pastel")
 sns.barplot(x=q5p['count(tweet_id)'], y=q5p['airline'], data=q5p, label="Total", color="b")
+
+The results we got are sccording to image3
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
