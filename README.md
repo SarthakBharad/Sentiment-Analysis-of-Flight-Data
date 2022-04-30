@@ -82,7 +82,8 @@ We then plotted the graph of sentiment vs count of sentiment using the code belo
 - ax1.axhline(0, color="k", clip_on=False)
 - ax1.set_ylabel("Sequential")
 
-The results we got are sccording to <img src="image1.png">
+The results we got are according to
+<img src="image1.png">
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
