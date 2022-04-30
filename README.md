@@ -109,7 +109,7 @@ We performed the above function using the queries below:
 
 We then plotted the graph of sentiment confidence vs count of sentiment using the code below and got results as per image 2:
 
-sns.displot(qp['airline_sentiment_confidence'], bins=10,palette="rocket_r")
+- sns.displot(qp['airline_sentiment_confidence'], bins=10,palette="rocket_r")
 
 The results we got are sccording to image2
 
