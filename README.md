@@ -83,6 +83,7 @@ We then plotted the graph of sentiment vs count of sentiment using the code belo
 - ax1.set_ylabel("Sequential")
 
 The results we got are according to
+
 <img src="image1.png">
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -112,7 +113,9 @@ We then plotted the graph of sentiment confidence vs count of sentiment using th
 
 - sns.displot(qp['airline_sentiment_confidence'], bins=10,palette="rocket_r")
 
-The results we got are sccording to image2
+The results we got are according to
+
+<img src="image2.png">
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -133,6 +136,8 @@ We then plotted the graph of sentiment vs count of sentiment using the code belo
 - sns.set_color_codes("pastel")
 - sns.barplot(x=q5p['count(tweet_id)'], y=q5p['airline'], data=q5p, label="Total", color="b")
 
-The results we got are sccording to image3
+The results we got are according to
+
+<img src="image3.png">
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
