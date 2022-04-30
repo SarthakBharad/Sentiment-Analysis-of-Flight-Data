@@ -84,7 +84,7 @@ We then plotted the graph of sentiment vs count of sentiment using the code belo
 
 The results we got are according to
 
-<img src="image1.png">
+<img src="https://drive.google.com/file/d/1SgMZ6s3TdJojetL_X_mopzQmKkLmtp0a/view?usp=sharing">
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -138,6 +138,6 @@ We then plotted the graph of sentiment vs count of sentiment using the code belo
 
 The results we got are according to
 
-<img src="image3.png">
+<img src="https://drive.google.com/file/d/1SR86jqcY0sRHOwnETTFNjKD6HW0hCfTb/view?usp=sharing">
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
