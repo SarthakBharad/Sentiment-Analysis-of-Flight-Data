@@ -84,7 +84,7 @@ We then plotted the graph of sentiment vs count of sentiment using the code belo
 
 The results we got are according to
 
-![image]('https://drive.google.com/file/d/1SgMZ6s3TdJojetL_X_mopzQmKkLmtp0a/view?usp=sharing')
+![image](https://github.com/SarthakBharad/Sentiment-Analysis-of-Flight-Data/blob/main/image1.png?raw=true)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -115,7 +115,7 @@ We then plotted the graph of sentiment confidence vs count of sentiment using th
 
 The results we got are according to
 
-<img src="https://drive.google.com/file/d/1sMmxI0JO8ZS87qnpD4YEo-O7BNQwgTfr/view?usp=sharing">
+![image](https://github.com/SarthakBharad/Sentiment-Analysis-of-Flight-Data/blob/main/image2.png?raw=true)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -138,6 +138,6 @@ We then plotted the graph of sentiment vs count of sentiment using the code belo
 
 The results we got are according to
 
-<img src='https://drive.google.com/file/d/1SR86jqcY0sRHOwnETTFNjKD6HW0hCfTb/view?usp=sharing'>
+![image](https://github.com/SarthakBharad/Sentiment-Analysis-of-Flight-Data/blob/main/image3.png?raw=true')
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
