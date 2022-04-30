@@ -82,14 +82,14 @@ The following is the process by which we created the 3rd graph, i.e. Number of T
 First, we calculated the count of tweets that are present in the given data regarding a specific airline.
 We used the below query to obtain the results:
 
-q5=spark.sql('''
-FROM tweet select airline,count(tweet_id)
-GROUP BY airline
-''')
-q5.show()
-q5p=q5.toPandas()
+- q5=spark.sql('''
+- FROM tweet select airline,count(tweet_id)
+- GROUP BY airline
+- ''')
+- q5.show()
+- q5p=q5.toPandas()
 
-- We then plotted the graph of sentiment vs count of sentiment using the code below and got results as per image 3:
+We then plotted the graph of sentiment vs count of sentiment using the code below and got results as per image 3:
 
 f, ax = plt.subplots(figsize=(6, 15))
 sns.set_color_codes("pastel")
