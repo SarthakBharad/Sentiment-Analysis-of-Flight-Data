@@ -12,10 +12,14 @@ We have plotted three primary graphs as follows:
 2. Distribution of each sentiment Confidence - Histogram
 3. Number of Tweets per Airline - Barplot
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 From Graph - 1, we can infer that the total amount of negative sentiments is much much greater than the positive and nuetral sentiments.
 It is even greater than both the counts combined, this means each airline in the dataset should improve its services to avoid negative reception.
+
 From Graph - 2, we can infer that the confidence levels for the tweets is also pretty high, especially for negative tweets.
 THe confidence level for positive and neutral tweets is barely over 50% which means the airlines need to be more careful in increasing customer satisfaction.
+
 From Graph - 3, we can infer that the total amount of tweets referring to some airlines are more and some are less.
 This leads to speculation that the data analysis for an airline with less no. of tweets may vary in accuracy compared to other airline with high no. of tweets.
 This may lead to diffculties in calculating sentiment analysis due to large difference in no. of referred tweets.
